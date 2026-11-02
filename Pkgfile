@@ -15,8 +15,8 @@ vars:
   cni_sha512: 5811fb14786f1f9d9e40741ce337449ce329e14e04213bc660102eb470150f24026e59caec480572e37d0e3e6e6518737f3cc7ac462c47034d0737283ec532f9
 
   # renovate: datasource=github-tags depName=containerd/containerd
-  containerd_version: v2.3.7
-  containerd_ref: 6f589cf13dc01a5b493911355427e05b2ff005d7
+  containerd_version: v2.4.2
+  containerd_ref: b7a25261e029d68978bbf290df0a62fc819b3c51
   containerd_sha256: 5d973b7d239de0e4cb72f6d4bad348a1540a80f394beb03f84a868714b06706c
   containerd_sha512: e8bc6bfab5a016d460e63c58d19a1c33b0b2f1f04af3ae959d07d7e239d9cfd5e8f33056823efd6cd22d6db49453d1d5bc7743e6d30c4eaf373c6bf1fbf1a89a
 
@@ -79,7 +79,7 @@ vars:
   hailort_v4_fw_sha512: 53ffd641086e7bc1298e6b41c7204199e49e595feeb06bcfa339c15e4a73de6133e59293cf3f5dfdd72b052f2c829fc5ad93da5d325ed084b702e450f999594c
 
   # renovate: datasource=github-releases extractVersion=^v(?<version>5\..+)$ depName=hailo-ai/hailort-drivers
-  hailort_v5_version: 5.4.0
+  hailort_v5_version: 5.5.0
   hailort_v5_sha256: 9ea3d5cf3ce7af30253896f127f67ecb1677faecd25f9c4ff199ca1a722fc63a
   hailort_v5_sha512: 123e4e084f7f756fba446d81b7b655ecc594b9704d48ed9c65e923867eb97b696636f1325fd62ae592a9c497dc466df4c7122943ca76708c8bee82533aa8a58f
   hailort_v5_hailo10h_fw_sha256: 569444739a9262fd70fb62ae3f4f9be3f649685166d0b09af6063d7a4dc11bf9
@@ -101,7 +101,7 @@ vars:
   iptables_sha512: 3aefd76ca60d00f46ba4d6f39cbcfdc60517d03b6714da25dcd67542f6f4eea8d82c4855bdd9124efe18b769f41951772b8340a6eda75b85f8dd52b2289b145b
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: 39a440d082a65a5b8e11e734cd6caf0991b70771
+  ipxe_ref: b87b90415f45b9e98a9c9db088d827c442ed6ddb
   ipxe_sha256: a03d85e4c7f9704b8c9001d84dd33a51dc7d98ef9d465988ef4dc82aeff1a87a
   ipxe_sha512: 2730b0d91c87109d2c7ab3a82a74fe88111e21ff76aa56c4ff8a6e5a24ce9fc1345ac11d4baf7c00669f1c3d60dcdfb2c5b9eb9bdf93900802e251f20d9e5afd
 
@@ -131,7 +131,7 @@ vars:
   libattr_sha512: 870d0c34fbaa7520aad058ecd6509fe8eddd17430781a16d1e80484d4947307a7c641f0449183cbac1da611a85f82c9bee2d2d7bff76170fc2195b123100d22e
 
   # renovate: datasource=github-releases extractVersion=^r(?<version>.*)$ depName=benhoyt/inih
-  libinih_version: 62
+  libinih_version: 63
   libinih_sha256: 9c15fa751bb8093d042dae1b9f125eb45198c32c6704cd5481ccde460d4f8151
   libinih_sha512: 206ddfaa55d29396c3a44f8d1dfcf578c5ebf892e81fe875cd6b4ec2af5cccf400ca13fc6585b6d8232bd122bd8aef7522bfc83898b5609b29c20bad9390ee02
 
@@ -331,7 +331,7 @@ vars:
 
   # NOTE: v4 requires autoconf-archive
   # renovate: datasource=git-tags depName=https://gitlab.com/apparmor/apparmor.git
-  apparmor_version: v3.1.7
+  apparmor_version: v5.0.2
   apparmor_sha256: 64494bd99fa6547a9cbdb4fc6bc732451a02dd19e6eb70eab977b239632151eb
   apparmor_sha512: cfd6b0afb98d4559c16a6a2e23ca16ee9d86325fc6059313df5d3e8feba3d398f96a5754d3880dd2cafb2e7b1a06bd789d62cd36aaf993e46290f6311bb49dac
 
